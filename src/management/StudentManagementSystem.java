@@ -18,7 +18,7 @@ public class StudentManagementSystem implements StudentManagement{
         studentservice = new StudentServiceImpl();
     }
 
-    public void exit(){
+    public void execute(){
         System.out.println("[StudentManagementSystem 실행]");
         while(true){
             System.out.println("===================");
